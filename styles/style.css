@@ -1,0 +1,56 @@
+/*************\ 
+ Common styles
+\*************/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.default-button {
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+
+
+/*************\ 
+ header styles
+\*************/
+
+header {
+    background-color: #2D25A0;
+    padding: 4rem 1rem;
+}
+
+.banner-text {
+    margin-bottom: 50px;
+}
+.banner-header {
+    margin-bottom: 25px;
+}
+
+.banner-header h1 {
+    color: white;
+    margin: 0;
+    font-size: 36px;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+
+/***********\ 
+ main styles
+\***********/
+
+.player {
+    padding: 15px;
+}
+
+.player-image img {
+    width: 100%;
+}
