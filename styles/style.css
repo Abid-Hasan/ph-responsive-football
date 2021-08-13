@@ -21,7 +21,7 @@ body {
 
 header {
     background-color: #2D25A0;
-    padding: 4rem 1rem;
+    padding: 50px 15px;
 }
 
 .banner-text {
@@ -46,8 +46,10 @@ header {
  main styles
 \***********/
 
-main {
-    padding: 50px 15px;
+/* players-gallery styles */
+
+.players-gallery {
+    padding: 50px 15px 25px 15px;
 }
 
 .player {
@@ -68,4 +70,34 @@ main {
 
 .player-info {
     color: #6C6C6C;
+}
+
+/* highlights styles */
+
+.highlights {
+    padding: 25px 15px 25px 15px;
+}
+
+.highlights-text {
+    margin-bottom: 50px;
+}
+
+.highlights-header {
+    margin-bottom: 25px;
+}
+
+.highlights-paragraph {
+    margin-bottom: 40px;
+    color: #6C6C6C;
+}
+
+.highlights-header h2 {
+    color: #0A0826;
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.highlights-image img {
+    width: 100%;
 }
