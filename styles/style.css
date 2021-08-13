@@ -15,7 +15,6 @@ body {
     padding: 10px 24px;
 }
 
-
 /*************\ 
  header styles
 \*************/
@@ -28,6 +27,7 @@ header {
 .banner-text {
     margin-bottom: 50px;
 }
+
 .banner-header {
     margin-bottom: 25px;
 }
@@ -42,15 +42,30 @@ header {
     width: 100%;
 }
 
-
 /***********\ 
  main styles
 \***********/
 
+main {
+    padding: 50px 15px;
+}
+
 .player {
     padding: 15px;
+    box-shadow: 10px 10px 40px lightgray;
+    margin-bottom: 25px;
 }
 
 .player-image img {
     width: 100%;
+}
+
+.player-name {
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+}
+
+.player-info {
+    color: #6C6C6C;
 }
