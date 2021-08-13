@@ -101,3 +101,108 @@ header {
 .highlights-image img {
     width: 100%;
 }
+
+/* sponsors section style */
+
+.sponsors {
+    padding: 50px 15px 25px 15px;
+}
+
+.sponsors-header {
+    color: #0A0826;
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sponsors-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.single-sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-sponsor img {
+    width: 100%;
+}
+
+/* apps section style */
+
+.apps {
+    padding: 50px 15px 50px 15px;
+}
+
+.apps-header {
+    color: #0A0826;
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.apps-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.single-app {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.single-app img {
+    width: 100%;
+}
+
+/*************\ 
+ footer styles
+\*************/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    width: 280px;
+    height: 175px;
+}
+
+/* footer logo styles */
+
+.logo img {
+    width: 100%;
+}
+
+/* social icon styles */
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-single {
+    margin: 0 10px 0 10px;
+    font-size: 32px;
+}
+
+.social-single a {
+    color: #969BAB;
+}
+
+/* copyright text styles */
+
+.copyright {
+    text-align: center;
+    padding-bottom: 32px;
+}
