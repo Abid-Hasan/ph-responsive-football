@@ -1,3 +1,9 @@
+/*********************\ 
+***********************
+ Mobile-first approach
+***********************
+\*********************/
+
 /*************\ 
  Common styles
 \*************/
@@ -50,12 +56,14 @@ header {
 
 .players-gallery {
     padding: 50px 15px 25px 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
 }
 
 .player {
     padding: 15px;
     box-shadow: 10px 10px 40px lightgray;
-    margin-bottom: 25px;
 }
 
 .player-image img {
@@ -205,4 +213,63 @@ footer {
 .copyright {
     text-align: center;
     padding-bottom: 32px;
+}
+
+/*********************\ 
+***********************
+  Media query for tab
+***********************
+\*********************/
+
+@media (min-width: 688px) {
+    header {
+        padding: 100px 50px;
+    }
+    .players-gallery {
+        padding: 100px 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .highlights {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsors {
+        padding: 50px;
+    }
+    .apps {
+        padding: 50px;
+    }
+}
+
+/*********************\ 
+***********************
+  Media query for tab
+***********************
+\*********************/
+
+@media (min-width: 992px) {
+    header {
+        padding: 200px 150px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .players-gallery {
+        padding: 200px 150px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .highlights {
+        padding: 100px 150px;
+        ;
+    }
+    .sponsors {
+        padding: 100px 150px;
+    }
+    .apps {
+        padding: 100px 150px;
+    }
+    .footer-container {
+        width: 483.87px;
+        height: 213px;
+    }
 }
