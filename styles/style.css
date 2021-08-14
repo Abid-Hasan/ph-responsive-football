@@ -32,6 +32,9 @@ header {
 
 .banner-text {
     margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .banner-header {
@@ -244,13 +247,13 @@ footer {
 
 /*********************\ 
 ***********************
-  Media query for tab
+   Media query for pc
 ***********************
 \*********************/
 
-@media (min-width: 992px) {
+@media (min-width: 1280px) {
     header {
-        padding: 200px 150px;
+        padding: 200px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -259,14 +262,14 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
     .highlights {
-        padding: 100px 150px;
+        padding: 100px 200px;
         ;
     }
     .sponsors {
-        padding: 100px 150px;
+        padding: 100px 200px;
     }
     .apps {
-        padding: 100px 150px;
+        padding: 100px 200px;
     }
     .footer-container {
         width: 483.87px;
